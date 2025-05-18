@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|d:\\top\\\u043E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\applicantsapi\\applicantsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|solutionrelative:applicantsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|d:\\top\\\u043E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\applicantsapi\\applicantsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|solutionrelative:applicantsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|d:\\top\\\u043E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\applicantsapi\\applicantsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|solutionrelative:applicantsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|d:\\top\\\u043E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\applicantsapi\\applicantsapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|solutionrelative:applicantsapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|d:\\top\\\u043E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\applicantsapi\\applicantsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|solutionrelative:applicantsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|d:\\top\\\u043E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\applicantsapi\\applicantsapi\\migrations\\20250315161415_seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|solutionrelative:applicantsapi\\migrations\\20250315161415_seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|d:\\top\\\u043E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\applicantsapi\\applicantsapi\\applicant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{200F52B8-4119-4821-A21B-6493156AA54B}|ApplicantsApi\\ApplicantsApi.csproj|solutionrelative:applicantsapi\\applicant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\Dockerfile",
+              "RelativeDocumentMoniker": "ApplicantsApi\\Dockerfile",
+              "ToolTip": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\Dockerfile",
+              "RelativeToolTip": "ApplicantsApi\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-03T07:00:38.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250315161415_Seed.cs",
+              "DocumentMoniker": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\Migrations\\20250315161415_Seed.cs",
+              "RelativeDocumentMoniker": "ApplicantsApi\\Migrations\\20250315161415_Seed.cs",
+              "ToolTip": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\Migrations\\20250315161415_Seed.cs",
+              "RelativeToolTip": "ApplicantsApi\\Migrations\\20250315161415_Seed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T06:41:43.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Applicant.cs",
+              "DocumentMoniker": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\Applicant.cs",
+              "RelativeDocumentMoniker": "ApplicantsApi\\Applicant.cs",
+              "ToolTip": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\Applicant.cs",
+              "RelativeToolTip": "ApplicantsApi\\Applicant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T06:36:51.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApplicantsApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApplicantsApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T06:27:33.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\Program.cs",
+              "RelativeDocumentMoniker": "ApplicantsApi\\Program.cs",
+              "ToolTip": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\Program.cs",
+              "RelativeToolTip": "ApplicantsApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T06:14:26.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ApplicantsApi\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ApplicantsApi\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:11:49.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ApplicantsApi\\appsettings.json",
+              "ToolTip": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\ApplicantsApi\\ApplicantsApi\\appsettings.json",
+              "RelativeToolTip": "ApplicantsApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T13:08:25.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\bin\Debug\net9.0\UsingHttpExample.exe
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\bin\Debug\net9.0\UsingHttpExample.deps.json
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\bin\Debug\net9.0\UsingHttpExample.runtimeconfig.json
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\bin\Debug\net9.0\UsingHttpExample.dll
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\bin\Debug\net9.0\UsingHttpExample.pdb
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\obj\Debug\net9.0\UsingHttpExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\obj\Debug\net9.0\UsingHttpExample.AssemblyInfoInputs.cache
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\obj\Debug\net9.0\UsingHttpExample.AssemblyInfo.cs
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\obj\Debug\net9.0\UsingHttpExample.csproj.CoreCompileInputs.cache
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\obj\Debug\net9.0\UsingHttpExample.dll
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\obj\Debug\net9.0\refint\UsingHttpExample.dll
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\obj\Debug\net9.0\UsingHttpExample.pdb
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\obj\Debug\net9.0\UsingHttpExample.genruntimeconfig.cache
+D:\TOP\Облачные технологии\UsingHttpExample\UsingHttpExample\obj\Debug\net9.0\ref\UsingHttpExample.dll

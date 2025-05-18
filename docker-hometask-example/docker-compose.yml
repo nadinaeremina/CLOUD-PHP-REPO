@@ -1,0 +1,18 @@
+services:
+  # контейнер БД
+  mysql:
+    container_name: mysql_instance
+    build:
+      context: .
+    ports:
+      - "3306:3306"
+
+  # контейнер веб-админки
+  webadmin:
+    container_name: webadmin_instance
+    image: phpmyadmin
+    ports:
+      - "8080:80"
+    environment:
+    # здесь ссылаемся на наш сервис
+      - PMA_HOST=mysql

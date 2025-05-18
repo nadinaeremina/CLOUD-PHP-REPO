@@ -1,0 +1,24 @@
+1. Собрать образ (image) контейнера согласно Dockerfile: '-t' - тег имени контейнера
+'.' - контекст сборки, указывает на текущую папку
+
+docker build -t custom_postgres .
+
+2. Создать и запустить контейнер на основе собранного образа:
+
+docker run --name custom_postgres_instance -p 5432:5432 -d custom_postgres
+
+3. Посмотреть статус контейнера:
+
+docker ps
+
+4. Остановка контейнера:
+
+docker stop custom_postgres_instance
+
+5. Повторный запуск:
+
+docker start custom_postgres_instance
+
+6. Удалить контейнер:
+
+docker rm custom_postgres_instance

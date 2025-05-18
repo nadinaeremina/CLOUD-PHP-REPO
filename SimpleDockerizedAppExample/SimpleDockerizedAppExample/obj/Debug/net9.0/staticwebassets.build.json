@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "rEuU7xGjeXTU8pY5GOvTonua8oghXCOXMGxyMshNC3w=",
+  "Source": "SimpleDockerizedAppExample",
+  "BasePath": "_content/SimpleDockerizedAppExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

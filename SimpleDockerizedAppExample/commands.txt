@@ -1,0 +1,13 @@
+1. сборка образа приложения - запускаем с помощью:
+имя образа (-t simple_dockerized_app), контекст (.) и dockerfile (-f SimpleDockerizedAppExample/Dockerfile)
+
+docker build -t simple_dockerized_app . -f SimpleDockerizedAppExample/Dockerfile 
+
+2. создание и запуск контейнера (пробрасываем порты)
+теперь приложение запущено из docker
+
+docker run --name simple_dockerized_app_instance -p 8080:8080 -d simple_dockerized_app 
+
+3. остановка контейнера: 
+
+docker stop simple_dockerized_app_instance

@@ -1,0 +1,11 @@
+services:
+  php:
+    container_name: php_sandbox
+    image: php:8.2-apache
+    volumes:
+      - ./src/:/var/www/html/
+    ports:
+      - "8080:80"
+
+# внутри этого контейнера уже будет настроен apach php interpreter
+# теперь можно открыть: http://localhost:8080/

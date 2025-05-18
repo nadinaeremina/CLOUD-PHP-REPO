@@ -1,0 +1,7 @@
+USE users_db;
+
+CREATE TABLE user_t (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    login_f NVARCHAR(200) NOT NULL UNIQUE
+);
+

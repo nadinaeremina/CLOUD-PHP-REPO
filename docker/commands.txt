@@ -1,0 +1,28 @@
+1. Создать и запустить конетйнер на основе готового образа локально или из docker hub:
+
+docker run --name local_postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres 
+-p 5432:5432 -d postgres
+
+(то мы запустим postgres в docker)
+
+    либо через docker desktop
+
+2. Проверить, запустился ли контейнер: 
+
+docker ps
+
+3. Остановка контейнера:
+
+docker stop local_postgres
+
+    указываем либо id контейнера, либо его имя
+
+4. Повторный запуск контейнера:
+
+docker start local_postgres
+
+5. Удаление контейнера (доп. тома (volumes) и образ (image))
+
+контейнер удалится, postgres нет
+
+docker rm local_postgres

@@ -1,0 +1,34 @@
+# секция описания контейнеров - сервисов приложения - 'services'
+services:
+  # имя сервиса
+  postgres_db: 
+  # имя контейнера (БД Postgres)
+    container_name: postgres_db_instance
+    # образ
+    image: postgres
+    # окружение - прописываем, если данные берем не из dockerfile, а dockerhub
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=user_db
+    # порты
+    ports:
+      - "5432:5432"
+    # volumes - для того, чтобы инициализация БД выполнилась
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  # контейнер с админкой
+  # можем запустить http://localhost:8080 - там зайти в учетку postgres - получим локально запущенную админку postgres
+  pgadmin:
+    container_name: pgadmin_instance
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8080:80"
+  # можно зайти на сайт: localhost8080
+
+  # При обращении одного контейнера к другому мы не можем уже воспользоваться host name: localhost 
+  # - нам нужна подсеть, а это уже ip-адрес контейнера

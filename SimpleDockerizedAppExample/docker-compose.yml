@@ -1,0 +1,14 @@
+services:
+  app:
+    container_name: simpledockerizedappexample
+    # 'image' нет, потому что есть dockerfile, поэтому вписываем секцию 'build'
+    build:
+    # контекст сборки - текущая папка
+      context: .
+      dockerfile: ./SimpleDockerizedAppExample/Dockerfile
+    # переменные окружения не нужны, а порты пробросить нужно
+    ports:
+      - "8080:8080"
+
+# запуск
+# docker-compose up -d

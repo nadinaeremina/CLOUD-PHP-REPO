@@ -1,0 +1,9 @@
+
+services:
+  php:
+    container_name: internet-app
+    image: php:8.2-apache
+    volumes:
+      - ./:/var/www/html/
+    ports:
+      - "8080:80"

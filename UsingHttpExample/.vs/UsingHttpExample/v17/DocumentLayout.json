@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\UsingHttpExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCCCE74-8161-4393-9AF8-A3A77D209DC4}|UsingHttpExample\\UsingHttpExample.csproj|d:\\top\\\u043E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\usinghttpexample\\usinghttpexample\\currencyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCCCE74-8161-4393-9AF8-A3A77D209DC4}|UsingHttpExample\\UsingHttpExample.csproj|solutionrelative:usinghttpexample\\currencyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCCCE74-8161-4393-9AF8-A3A77D209DC4}|UsingHttpExample\\UsingHttpExample.csproj|d:\\top\\\u043E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\usinghttpexample\\usinghttpexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCCCE74-8161-4393-9AF8-A3A77D209DC4}|UsingHttpExample\\UsingHttpExample.csproj|solutionrelative:usinghttpexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCCCE74-8161-4393-9AF8-A3A77D209DC4}|UsingHttpExample\\UsingHttpExample.csproj|d:\\top\\\u043E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\usinghttpexample\\usinghttpexample\\iratesprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCCCE74-8161-4393-9AF8-A3A77D209DC4}|UsingHttpExample\\UsingHttpExample.csproj|solutionrelative:usinghttpexample\\iratesprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCCCE74-8161-4393-9AF8-A3A77D209DC4}|UsingHttpExample\\UsingHttpExample.csproj|d:\\top\\\u043E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\usinghttpexample\\usinghttpexample\\cbrratesprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCCCE74-8161-4393-9AF8-A3A77D209DC4}|UsingHttpExample\\UsingHttpExample.csproj|solutionrelative:usinghttpexample\\cbrratesprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CbrRatesProvider.cs",
+              "DocumentMoniker": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\UsingHttpExample\\UsingHttpExample\\CbrRatesProvider.cs",
+              "RelativeDocumentMoniker": "UsingHttpExample\\CbrRatesProvider.cs",
+              "ToolTip": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\UsingHttpExample\\UsingHttpExample\\CbrRatesProvider.cs",
+              "RelativeToolTip": "UsingHttpExample\\CbrRatesProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:10:38.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRatesProvider.cs",
+              "DocumentMoniker": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\UsingHttpExample\\UsingHttpExample\\IRatesProvider.cs",
+              "RelativeDocumentMoniker": "UsingHttpExample\\IRatesProvider.cs",
+              "ToolTip": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\UsingHttpExample\\UsingHttpExample\\IRatesProvider.cs",
+              "RelativeToolTip": "UsingHttpExample\\IRatesProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:10:20.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CurrencyConverter.cs",
+              "DocumentMoniker": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\UsingHttpExample\\UsingHttpExample\\CurrencyConverter.cs",
+              "RelativeDocumentMoniker": "UsingHttpExample\\CurrencyConverter.cs",
+              "ToolTip": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\UsingHttpExample\\UsingHttpExample\\CurrencyConverter.cs",
+              "RelativeToolTip": "UsingHttpExample\\CurrencyConverter.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwB4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:50:01.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\UsingHttpExample\\UsingHttpExample\\Program.cs",
+              "RelativeDocumentMoniker": "UsingHttpExample\\Program.cs",
+              "ToolTip": "D:\\TOP\\\u041E\u0431\u043B\u0430\u0447\u043D\u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\UsingHttpExample\\UsingHttpExample\\Program.cs",
+              "RelativeToolTip": "UsingHttpExample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:47:30.791Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

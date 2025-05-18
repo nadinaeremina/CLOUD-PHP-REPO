@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\SimpleDockerizedAppExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43868F82-88CF-4249-9847-D52956A955C3}|SimpleDockerizedAppExample\\SimpleDockerizedAppExample.csproj|c:\\users\\user\\source\\repos\\simpledockerizedappexample\\simpledockerizedappexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43868F82-88CF-4249-9847-D52956A955C3}|SimpleDockerizedAppExample\\SimpleDockerizedAppExample.csproj|solutionrelative:simpledockerizedappexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43868F82-88CF-4249-9847-D52956A955C3}|SimpleDockerizedAppExample\\SimpleDockerizedAppExample.csproj|c:\\users\\user\\source\\repos\\simpledockerizedappexample\\simpledockerizedappexample\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{43868F82-88CF-4249-9847-D52956A955C3}|SimpleDockerizedAppExample\\SimpleDockerizedAppExample.csproj|solutionrelative:simpledockerizedappexample\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43868F82-88CF-4249-9847-D52956A955C3}|SimpleDockerizedAppExample\\SimpleDockerizedAppExample.csproj|c:\\users\\user\\source\\repos\\simpledockerizedappexample\\simpledockerizedappexample\\simpledockerizedappexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{43868F82-88CF-4249-9847-D52956A955C3}|SimpleDockerizedAppExample\\SimpleDockerizedAppExample.csproj|solutionrelative:simpledockerizedappexample\\simpledockerizedappexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleDockerizedAppExample.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SimpleDockerizedAppExample\\SimpleDockerizedAppExample\\SimpleDockerizedAppExample.csproj",
+              "RelativeDocumentMoniker": "SimpleDockerizedAppExample\\SimpleDockerizedAppExample.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\SimpleDockerizedAppExample\\SimpleDockerizedAppExample\\SimpleDockerizedAppExample.csproj",
+              "RelativeToolTip": "SimpleDockerizedAppExample\\SimpleDockerizedAppExample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-29T09:13:10.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SimpleDockerizedAppExample\\SimpleDockerizedAppExample\\Dockerfile",
+              "RelativeDocumentMoniker": "SimpleDockerizedAppExample\\Dockerfile",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\SimpleDockerizedAppExample\\SimpleDockerizedAppExample\\Dockerfile",
+              "RelativeToolTip": "SimpleDockerizedAppExample\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-29T09:13:57.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SimpleDockerizedAppExample\\SimpleDockerizedAppExample\\Program.cs",
+              "RelativeDocumentMoniker": "SimpleDockerizedAppExample\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\SimpleDockerizedAppExample\\SimpleDockerizedAppExample\\Program.cs",
+              "RelativeToolTip": "SimpleDockerizedAppExample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:54:54.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
