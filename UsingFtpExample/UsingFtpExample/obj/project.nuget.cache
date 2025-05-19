@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZPF0QMTwJCI=",
+  "success": true,
+  "projectFilePath": "D:\\TOP\\Облачные технологии и PHP\\CLOUD-PHP-REPO\\UsingFtpExample\\UsingFtpExample\\UsingFtpExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\fluentftp\\52.1.0\\fluentftp.52.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

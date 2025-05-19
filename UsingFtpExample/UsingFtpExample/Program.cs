@@ -19,3 +19,17 @@ using (AsyncFtpClient client = new AsyncFtpClient("ftp://ftpupload.net", "<FTP u
     FtpStatus status = await client.UploadFile("local.txt", "data/uploaded_local.txt");
     Console.WriteLine($"uploaded with status {status}");
 }
+
+using (AsyncFtpClient client = new AsyncFtpClient("ftp://ftpupload.net", "<FTP username>", "<FTP password>"))
+{
+    // подключиться к ftp-серверу
+    Console.WriteLine("connection to ftp server ...");
+    await client.Connect();
+    Console.WriteLine("connection with ftp server has been established");
+
+    // скачаем файл с удаленного FTP-сервера
+    FtpStatus status2 = await client.DownloadFile("downloaded_remote.txt", "data/remote.txt");
+    Console.WriteLine($"downloaded with status {status2}");
+}
+
+
