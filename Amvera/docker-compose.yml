@@ -1,0 +1,9 @@
+
+services:
+  app:
+    container_name: amvera
+    build:
+      context: .
+      dockerfile: ./Amvera/Dockerfile
+    ports:
+      - "8080:8080"

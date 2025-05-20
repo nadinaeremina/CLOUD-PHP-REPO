@@ -1,0 +1,5 @@
+build:
+  dockerfile: ./Amvera/Dockerfile
+
+run:
+  containerPort: 8080
