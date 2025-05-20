@@ -1,0 +1,35 @@
+services:
+  app:
+    container_name: metrics_challenge_app
+    build: 
+      context: .
+      dockerfile: MetricsChallanges/Dockerfile
+    ports:
+      - "8080:8080"
+  
+  # настройка сервиса, который будет работать с метриками
+  prometheus:
+    container_name: metrics_challenge_prometheus
+    image: prom/prometheus:latest
+    # пробрасываем конфиг в контейнер прометеуса
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      # /etc/prometheus/prometheus.yml - путь, чтобы попасть внутрь контейнера
+    ports:
+      - "9090:9090"
+
+    # пересобрать докер
+    # docker-compose down
+    # docker-compose up -d
+    # docker-compose up -d --build
+
+  # настройка сервиса, который будет нам визуализировать данные
+  grafana:
+    container_name: metrics_challenge_grafana
+    image: grafana/grafana:latest
+    volumes:
+      - ./grafana/prometheus_datasource.yml:/etc/grafana/provisioning/datasources/prometheus_datasource.yml
+      - ./grafana/prometheus_dashboard.json:/var/lib/grafana/dashboards/prometheus_dashboard.json
+      - ./grafana/prometheus_dashboard.yml:/etc/grafana/provisioning/dashboards/prometheus_dashboard.yml
+    ports:
+      - "3000:3000"
