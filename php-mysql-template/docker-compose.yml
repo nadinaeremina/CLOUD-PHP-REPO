@@ -1,0 +1,21 @@
+services:
+  app:
+    container_name: app
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "8080:80"
+  
+  db:
+    image: mysql
+    container_name: db
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=some_db
+    volumes:
+      - ./init-db:/docker-entrypoint-initdb.d
+    ports:
+      - "3307:3306"
