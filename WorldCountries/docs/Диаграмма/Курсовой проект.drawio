@@ -1,0 +1,168 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.0">
+  <diagram name="Страница — 1" id="A8QwxEpx_BWC9RQFPlmw">
+    <mxGraphModel dx="1289" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-2" value="&lt;b&gt;Exceptions&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;CountryNotFoundException&lt;/div&gt;&lt;div&gt;DuplicatedCodeException&lt;/div&gt;&lt;div&gt;DuplicatedCountryException&lt;/div&gt;&lt;div&gt;EmptyFieldsException&lt;/div&gt;&lt;div&gt;InvalidCodeException&lt;/div&gt;&lt;div&gt;InvalidFieldException&lt;/div&gt;&lt;div&gt;NotMatchCodesException&lt;/div&gt;&lt;div&gt;TheSameCountryException&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680" y="258" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-38" value="RootController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-38">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-41" value="+ index(): JsonResponse&lt;div&gt;+ ping(): JsonResponse&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-38">
+          <mxGeometry y="34" width="160" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-42" value="&lt;b&gt;AbstractController&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="710" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-43" value="Country" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="160" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-44" value="+ shortName: string&lt;div&gt;+ fullName: string&lt;/div&gt;&lt;div&gt;+ isoAlpha2: string&lt;/div&gt;&lt;div&gt;+ isoAlpha3: string&lt;/div&gt;&lt;div&gt;+ isoNumeric: string&lt;/div&gt;&lt;div&gt;+ population: int&lt;/div&gt;&lt;div&gt;+ square: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-43">
+          <mxGeometry y="26" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-43">
+          <mxGeometry y="140" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-59" value="CountryController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="110" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-61" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-59">
+          <mxGeometry y="26" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-62" value="+ getAll(): JsonResponse&lt;div&gt;+ get(code):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;JsonResponse&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ add(country):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;JsonResponse&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ edit(code, country):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;JsonResponse&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ remove(code):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;JsonResponse&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ buildErrorResponse(ex):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;JsonResponse&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-59">
+          <mxGeometry y="34" width="240" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-88" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.542;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="upvmRJk_vVIHjEMhVpYg-59" source="upvmRJk_vVIHjEMhVpYg-63">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="140" y="227" as="sourcePoint" />
+            <mxPoint x="140" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-63" value="CountryScenarios" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-64" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-63">
+          <mxGeometry y="26" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-65" value="+ getAll(): array&lt;div&gt;+ get(code):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Country&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ store(country):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ edit(code, country):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ remove(code):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ validateCode(code):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ comparisonCountry(country, country): bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ notMatchCodes(country, country): bool&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-63">
+          <mxGeometry y="34" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-66" value="CountryRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="420" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-67" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-66">
+          <mxGeometry y="26" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-68" value="+ selectAll(): array&lt;div&gt;+ selectByCode(code): ?&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Country&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ save(country):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ update(code, country):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ delete(code):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ isName(name, type):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;?&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Country&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-66">
+          <mxGeometry y="34" width="260" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-69" value="CountryStorage" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="480" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-70" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-69">
+          <mxGeometry y="26" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-71" value="+ selectAll(): array&lt;div&gt;+ selectByCode(code): ?&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Country&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ save(country):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ update(code, country):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ delete(code):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ isName(name, type):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;?&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Country&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-69">
+          <mxGeometry y="34" width="260" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-72" value="SqlHelper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="660" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-73" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-72">
+          <mxGeometry y="26" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-74" value="+ pingDb(): void&lt;div&gt;+ openDbConnection():&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;mysqli&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="upvmRJk_vVIHjEMhVpYg-72">
+          <mxGeometry y="34" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-75" value="&lt;b&gt;Exception&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="707" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-76" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="upvmRJk_vVIHjEMhVpYg-2" target="upvmRJk_vVIHjEMhVpYg-75">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="220" as="sourcePoint" />
+            <mxPoint x="490" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-77" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="upvmRJk_vVIHjEMhVpYg-41" target="upvmRJk_vVIHjEMhVpYg-42">
+          <mxGeometry x="0.0588" width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="90" as="sourcePoint" />
+            <mxPoint x="630" y="90" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-78" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=1.004;exitY=0.045;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="upvmRJk_vVIHjEMhVpYg-62" target="upvmRJk_vVIHjEMhVpYg-42">
+          <mxGeometry x="0.0588" width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="140" as="sourcePoint" />
+            <mxPoint x="730" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-84" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.993;entryY=0.332;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="upvmRJk_vVIHjEMhVpYg-59" target="upvmRJk_vVIHjEMhVpYg-44">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="130" as="sourcePoint" />
+            <mxPoint x="490" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-91" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.203;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="upvmRJk_vVIHjEMhVpYg-62" target="upvmRJk_vVIHjEMhVpYg-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="790" y="250" as="sourcePoint" />
+            <mxPoint x="670" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-92" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1.01;exitY=0.237;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="upvmRJk_vVIHjEMhVpYg-65" target="upvmRJk_vVIHjEMhVpYg-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="760" y="430" as="sourcePoint" />
+            <mxPoint x="640" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-93" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="upvmRJk_vVIHjEMhVpYg-69" target="upvmRJk_vVIHjEMhVpYg-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="630" y="674" as="sourcePoint" />
+            <mxPoint x="707" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-94" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.001;entryY=0.882;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.007;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="upvmRJk_vVIHjEMhVpYg-68" target="upvmRJk_vVIHjEMhVpYg-65">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="273" y="483" as="sourcePoint" />
+            <mxPoint x="330" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-99" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=-0.011;exitY=0.288;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="upvmRJk_vVIHjEMhVpYg-71" target="upvmRJk_vVIHjEMhVpYg-68">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="30" y="760" as="sourcePoint" />
+            <mxPoint x="190" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-100" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.574;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="upvmRJk_vVIHjEMhVpYg-66">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="370" as="sourcePoint" />
+            <mxPoint x="160" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-101" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="upvmRJk_vVIHjEMhVpYg-63" target="upvmRJk_vVIHjEMhVpYg-44">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="270" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-102" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.861;entryY=0.841;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.358;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="upvmRJk_vVIHjEMhVpYg-69" target="upvmRJk_vVIHjEMhVpYg-45">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="482" y="728" as="sourcePoint" />
+            <mxPoint x="340" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upvmRJk_vVIHjEMhVpYg-104" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.497;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="upvmRJk_vVIHjEMhVpYg-72" target="upvmRJk_vVIHjEMhVpYg-71">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="434" y="810" as="sourcePoint" />
+            <mxPoint x="440" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
